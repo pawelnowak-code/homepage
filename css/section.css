@@ -10,10 +10,12 @@
 
 .section__header {
     color: #494848;
+    margin: 10px 0;
 }
 
 .section__subheader {
     color: #007bff;
+    margin: 10px 0;
 }
 
 .section__paragraph {
