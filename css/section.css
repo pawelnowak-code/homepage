@@ -1,0 +1,35 @@
+.section {
+    padding: 10px 0;
+    border-bottom: 1px solid #b7bdc3;
+}
+
+.section--last {
+    border-bottom: none;
+    padding: 10px 0 30px;
+}
+
+.section__header {
+    color: #494848;
+}
+
+.section__subheader {
+    color: #007bff;
+}
+
+.section__paragraph {
+    line-height: 1.5;
+}
+
+.section__link {
+    color: #333;
+    text-decoration: none;
+}
+
+.section__link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.section__emphasize {
+    color: #676666;
+}

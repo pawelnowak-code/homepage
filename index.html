@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweł Nowak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/mainHeader.css" rel="stylesheet">
+    <link href="css/mainContainer.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <header class="mainHeader">
+            <h1 class="mainHeader__text js-mainHeaderText">Hi there! Welcome to my website...</h1>
+            <img class="mainHeader__image" src="https://i.postimg.cc/52RSNnz2/na-slacka.png" alt="Paweł N" width=150>
+            <p><button class="mainHeader__changeColorButton js-changeColorButton">Change header color to <span
+                        class="js-nextColor">gray</span></button></p>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Home</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#about-me">About me</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#education">Education</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#db-engines-ranking">DB-Engines Ranking</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#contact-information">Contact information</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="section" id="about-me">
+                <h2 class="section__header">Paweł Nowak</h2>
+                <p class="section__paragraph">
+                    I'm a <strong>Database Administrator with 20 years of experience </strong> working with various
+                    database
+                    systems, including
+                    <i>Oracle, PostgreSQL, MySQL</i>, and <i> MongoDB</i>. I enjoy automating daily tasks using tools
+                    like
+                    <i>Ansible</i> and scripting in
+                    <i>Bash</i> and <i>SQL</i>. Outside of work, I'm a husband and father of three. In my free time, I
+                    play
+                    guitar,
+                    especially
+                    with friends, and I also enjoy motorcycling and chess (though less frequently these days). I'm
+                    currently
+                    focused
+                    on learning <i>JavaScript</i> to develop my own <b>database management application.</b>
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h3 class="section__subheader">Education</h3>
+                <p class="section__paragraph">
+                    Warsaw University of Technology <br>
+                    <em class="section__emphasize">postgraduate, IT Resource Management</em> <br>
+                    2011 - 2012 <br>
+                    <br>
+                    Warsaw University of Technology <br>
+                    <em class="section__emphasize">master degree, Computer Engineering</em> <br>
+                    2000 - 2005 <br>
+                </p>
+            </section>
+            <section class="section" id="db-engines-ranking">
+                <h3 class="section__subheader">DB-Engines Ranking</h3>
+                <div class="table__container">
+                    <table class="table">
+                        <caption class="table__caption">The most popular database engines in February 2025</caption>
+                        <thead>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">DBMS</th>
+                                <th class="table__cell table__cell--header" scope="col">Database Model</th>
+                                <th class="table__cell table__cell--header" scope="col">Multi-Model</th>
+                                <th class="table__cell table__cell--header" scope="col">Rank Feb 2025</th>
+                                <th class="table__cell table__cell--header" scope="col">Score Feb 2025</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Oracle</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">1</td>
+                                <td class="table__cell">1254.82</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">MySQL</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">2</td>
+                                <td class="table__cell">999.99</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Microsoft SQL Server</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">3</td>
+                                <td class="table__cell">786.87</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">PostgreSQL</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">4</td>
+                                <td class="table__cell">659.62</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">MongoDB</th>
+                                <td class="table__cell">Document</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">5</td>
+                                <td class="table__cell">396.63</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Redis</th>
+                                <td class="table__cell">Key-value</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">6</td>
+                                <td class="table__cell">157.91</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Snowflake</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">No</td>
+                                <td class="table__cell">7</td>
+                                <td class="table__cell">155.58</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Elasticsearch</th>
+                                <td class="table__cell">Multi-model</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">8</td>
+                                <td class="table__cell">134.63</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">IBM Db2</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">Yes</td>
+                                <td class="table__cell">9</td>
+                                <td class="table__cell">125.44</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">SQLite</th>
+                                <td class="table__cell">Relational</td>
+                                <td class="table__cell">No</td>
+                                <td class="table__cell">10</td>
+                                <td class="table__cell">113.82</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="section section--last" id="contact-information">
+                <h3 class="section__subheader">Contact information</h3>
+                <a class="section__link" href="https://www.linkedin.com/in/pawel-nowak-4790a22/">You can find me
+                    here</a>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        Wszelkie prawa zastrzeżone 😜
+    </footer>
+</body>
+
+</html>

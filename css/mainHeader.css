@@ -1,0 +1,28 @@
+.mainHeader {
+    text-align: center;
+}
+
+.mainHeader__text {
+    color: #007bff;
+}
+
+.mainHeader__text--dark {
+    color: #61686f;
+}
+
+.mainHeader__image {
+    width: 200px;
+    height: auto;
+    margin: 5px auto;
+    border-radius: 40%;
+}
+
+.mainHeader__changeColorButton {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #767373;
+    color: white;
+    border: none;
+    padding: 15px;
+}
