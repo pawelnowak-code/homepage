@@ -32,7 +32,9 @@ Below is a list of sample services that can be used to host static websites.
 - GitLab Pages
 
 ## Author
+
 Project created by [Paweł Nowak](https://pawelnowak-code.github.io/homepage/).
 
 ## License
-This project is available under the MIT license. More details can be found in the `LICENSE` file.
+
+This project is available under the MIT license.
