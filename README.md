@@ -35,6 +35,4 @@ Below is a list of sample services that can be used to host static websites.
 
 Project created by [Paweł Nowak](https://pawelnowak-code.github.io/homepage/).
 
-## License
 
-This project is available under the MIT license.
