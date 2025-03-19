@@ -22,9 +22,22 @@
     line-height: 1.5;
 }
 
+.section__list {
+    list-style: square;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.section__listItem {
+    padding: 5px;
+}
+
 .section__link {
     color: #333;
     text-decoration: none;
+
 }
 
 .section__link:hover {
